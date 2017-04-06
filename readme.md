@@ -1,1 +1,16 @@
-read me..
+# Install
+
+1. Install composer
+2. Run `composer require snufkin/ConsoleTable`
+3. Profit!
+
+# Usage
+
+```
+$table = new \Console\Helper\ConsoleTable;
+$table->setHeaders(['Column 1', 'Column 2']);
+$table->addRow(['data 1', 'data 2']);
+$table->addRow(['data 3', 'data 4']);
+$table->addRow(['data 5', 'data 6']);
+echo $table->getTable();
+```
