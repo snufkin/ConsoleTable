@@ -7,10 +7,19 @@
 # Usage
 
 ```
-$table = new \Console\Helper\ConsoleTable;
+$table = new \Console\Helper\ConsoleTable();
 $table->setHeaders(['Column 1', 'Column 2']);
 $table->addRow(['data 1', 'data 2']);
 $table->addRow(['data 3', 'data 4']);
 $table->addRow(['data 5', 'data 6']);
 echo $table->getTable();
+```
+
+# Customisations
+
+By default all columns are aligned left. To change the alignment 
+use the `0` as the first parameter in the constructor:
+
+```
+$table = new\Console\Helper\ConsoleTable(0);
 ```
