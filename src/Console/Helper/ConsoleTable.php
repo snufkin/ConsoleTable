@@ -41,7 +41,7 @@
  * @link       http://pear.php.net/package/Console_Table
  */
 
-namespace Elkuku\Console\Helper;
+namespace Console\Helper;
 
 /**
  * The main class.
