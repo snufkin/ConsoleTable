@@ -1,5 +1,5 @@
 {
-    "name": "elkuku/console-table",
+    "name": "snufkin/console-table",
     "description": "A table generator class for the PHP CLI.",
     "keywords": [ "console" ],
     "type": "library",
@@ -21,6 +21,10 @@
         {
             "name": "Nikolai Plath",
             "homepage": "https://github.com/elkuku"
+        },
+        {
+            "name": "Balazs Dianiska",
+            "homepage": "https://github.com/snufkin"
         }
     ],
     "require": {
@@ -28,7 +32,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Elkuku": "src/"
+            "Console": "src/"
         }
     }
 }
