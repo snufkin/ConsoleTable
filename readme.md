@@ -6,7 +6,7 @@
 
 # Usage
 
-```
+```php
 $table = new \Console\Helper\ConsoleTable();
 $table->setHeaders(['Column 1', 'Column 2']);
 $table->addRow(['data 1', 'data 2']);
@@ -20,6 +20,6 @@ echo $table->getTable();
 By default all columns are aligned left. To change the alignment 
 use the `0` as the first parameter in the constructor:
 
-```
-$table = new\Console\Helper\ConsoleTable(0);
+```php
+$table = new \Console\Helper\ConsoleTable(0);
 ```
